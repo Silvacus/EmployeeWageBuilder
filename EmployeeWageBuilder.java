@@ -10,7 +10,7 @@ public class EmpoyeeWageBuilder implements IComputeEmpWage {
 	private ArrayList<Company> companyEmpWageList;
 	private Map<String, Company> companyToEmpWageMap;
    
-    public EmpWageBuilder() {
+    public EmployeeWageBuilder() {
     	companyEmpWageList = new ArrayList<>();
     	companyToEmpWageMap = new HashMap<>();
     }
