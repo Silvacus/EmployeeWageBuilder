@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class EmployeeWageBuilder implements IComputeEmpWage {
+public class EmpoyeeWageBuilder implements IComputeEmpWage {
 	
 	public static final int IS_FULL_TIME = 1;
 	public static final int IS_PART_TIME = 2;
@@ -58,7 +58,7 @@ public class EmployeeWageBuilder implements IComputeEmpWage {
 		return 0;
 	}
 	 public static void main(String[] args) {
-		 EmployeeWageBuilder empWageBuilder = new EmployeeWageBuilder();
+		 EmployeeWageBuilder empWageBuilder = new EmpWageBuilder();
 		 empWageBuilder.addCompanyEmpWage("Heritage",  20,  2,  10);
 		 empWageBuilder.addCompanyEmpWage("smart",  10,  4,  20);
 		 empWageBuilder.computeEmpWage();
